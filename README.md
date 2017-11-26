@@ -1,4 +1,5 @@
 # My online Portfolio
+[Direct Link](https://egyomrey.github.io/Portfolio/build/index.html)
 How this project was built
 
 
