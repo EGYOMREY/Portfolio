@@ -1,0 +1,68 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+$font-stack: 'Raleway', sans-serif;
+
+/// weights
+$font-light: 300;
+$font-normal: 400;
+
+
+
+
+/// COLORS
+$main: #EF7E56; //primary gray
+$secondary: #305973; //brown
+
+/// Text Colors
+$text-color: $secondary;
+$text-inverse: $main;
+
+/// Gray
+$light-gray: #fef4fe;
+$dark-gray: #DED5C4 ;
+$white: #FFF;
+
+
+
+
+// BODY
+//
+// Settings for the `<body>` element.
+
+
+$body-bg:  $light-gray;
+$body-color: $secondary;
+
+
+
+// LINKS
+//
+// Style anchor elements.
+$link-color:                $white;
+$link-decoration:           none;
+$link-hover-color:          darken($main, 5%);
+$link-hover-decoration:     none;
+
+
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-size-base:              1rem;
+$h1-font-size:                $font-size-base * 2.2 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+
+
+
+// Buttons
+
+$btn-bg: $main;
+$btn-hover-color: darken($main, 5%);

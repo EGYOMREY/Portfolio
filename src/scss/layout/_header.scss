@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+
+.header{
+	
+	color: $light-gray;
+	margin: 0;
+	padding: 0;
+	background-color: $main;
+
+	h1{
+		margin-left: 0.2em;
+	}
+	
+}

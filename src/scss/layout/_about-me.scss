@@ -1,0 +1,43 @@
+.about-me{
+	display: flex;
+	flex-wrap: wrap;
+	
+
+	h1{
+		margin: 1.1em;
+
+		text-align: center;
+	}
+
+	&__picture{
+		display: flex;
+		border-right: 1px solid darken($main, 1%);
+		width: $col-12;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		@media (min-width:  780px) {
+			width: $col-6;
+			border-right: none;
+
+		}
+
+		img {
+			
+			border-radius: 50%;
+			max-width: 40%;
+			display: block;
+			margin: 1em auto;
+		}
+	}
+
+	&__details{
+		width: $col-12;
+		padding: 0.9em;
+		@media (min-width:  780px) {
+			width: $col-6;
+		}
+	}
+}
+

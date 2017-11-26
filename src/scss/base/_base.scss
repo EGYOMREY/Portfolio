@@ -1,0 +1,97 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+  font-size: $font-size-base;
+
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $body-color;
+  font-family: $font-stack;
+  font-weight: $font-normal;
+  line-height: 1.6;
+  background-color: $body-bg;
+}
+
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+
+  &:hover {
+    text-decoration: $link-hover-decoration;
+  }
+}
+
+
+// Basic styles for headers
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+
+
+.container{
+  width: 90%;
+  display: flex;
+  margin:  0 auto;
+  flex-direction: column;
+}
+
+.container-fluid{
+  width: 100%;
+  display: flex;
+  margin:  0 auto;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+li{
+  padding: 0;
+  margin: 0;
+
+  &:hover{
+    background-color: lighten($secondary, 5%);
+  }
+}
