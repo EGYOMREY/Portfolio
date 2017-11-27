@@ -3,15 +3,12 @@
 // -----------------------------------------------------------------------------
 
 .header {
+	@extend .grid;
     color: $light-gray;
     margin: 0;
     padding: 0;
     background-color: $main;
+    justify-content: space-around;
 
    
 }
-
- .title {
- 		text-align: left;
-        margin-left: 0.2em;
-    }

@@ -38,17 +38,16 @@ body {
 a {
   color: $link-color;
   text-decoration: $link-decoration;
+}
 
-  &:hover {
-    text-decoration: $link-hover-decoration;
+//links contained in all paragraphs
+p a{
+  color: $main;
+  &:hover{
+    color: darken($main, 10%);
   }
 }
 
-// Basic container
-.container{
-  width: 90%;
-  margin:  0 auto;
-}
 
 // Default styles for Unordened lists
 ul{
@@ -62,9 +61,6 @@ li{
   padding: 0;
   margin: 0;
 
-  &:hover{
-    background-color: lighten($secondary, 5%);
-  }
 }
 
 

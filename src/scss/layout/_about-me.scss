@@ -13,6 +13,7 @@
 
         img {
             border-radius: 50%;
+            border: 5px solid $main;
             max-width: 40%;
             margin: 2.5em auto 0 auto;
         }
@@ -28,10 +29,6 @@
 
         @media (min-width: 780px) {
             width: $col-6;
-        }
-
-        a {
-            color: $main;
         }
     }
 }

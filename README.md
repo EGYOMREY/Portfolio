@@ -52,7 +52,7 @@ sass/
 </pre>
 
 ### 3. Svg icons
+
+Took the social svg from this repository: 
 [Font-Awesome-SVG-PNG](https://github.com/encharm/Font-Awesome-SVG-PNG)
-
-
 
