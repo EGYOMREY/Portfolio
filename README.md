@@ -1,9 +1,10 @@
 # My online Portfolio
 [Direct Link](https://egyomrey.github.io/Portfolio/build/index.html)
-How this project was built
+
+## How this project was built:
 
 
-## 1. Styling
+### 1. Styling
 
 - Done with Sassy CSS, complied and minified to css with [Gulp](https://gulpjs.com/)
 - Followed a basic [7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern)
@@ -21,7 +22,8 @@ sass/
 |   |– _typography.scss  
 |  
 |– components/  
-|   |– _buttons.scss     
+|   |– _buttons.scss
+|   |– _project-block.scss          
 |  
 |– layout/  
 |   |– _navigation.scss  
@@ -29,7 +31,7 @@ sass/
 |   |– _header.scss       
 |   |– _footer.scss       
 |   |– _about-me.scss     
-|   |– _project.scss     
+|   |– _projects.scss     
 |  
 |– vendors/  
 |   |– _normalize.scss   
@@ -37,7 +39,7 @@ sass/
 – main.scss           
  </pre>
 
-## 2. Gulp plugins used:
+### 2. Gulp plugins used:
  <pre>
     gulp = require('gulp'),
     sass = require('gulp-sass'),
@@ -49,6 +51,8 @@ sass/
     htmlmin = require('gulp-htmlmin');
 </pre>
 
+### 3. Svg icons
+[Font-Awesome-SVG-PNG](https://github.com/encharm/Font-Awesome-SVG-PNG)
 
 
 
