@@ -1,43 +1,37 @@
-.about-me{
-	display: flex;
-	flex-wrap: wrap;
-	
+.about-me {
+    @extend .grid;
 
-	h1{
-		margin: 1.1em;
+    &__picture {
+        border-right: none;
+        width: $col-12;
+        text-align: center;
 
-		text-align: center;
-	}
+        @media (min-width: 780px) {
+            width: $col-6;
+            border-right: 1px solid darken($main, 1%);
+        }
 
-	&__picture{
-		display: flex;
-		border-right: 1px solid darken($main, 1%);
-		width: $col-12;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+        img {
+            border-radius: 50%;
+            max-width: 40%;
+            margin: 2.5em auto 0 auto;
+        }
 
-		@media (min-width:  780px) {
-			width: $col-6;
-			border-right: none;
+        a {
+            margin: 0.2em 1em;
+        }
+    }
 
-		}
+    &__details {
+        width: $col-12;
+        padding: 0.9em;
 
-		img {
-			
-			border-radius: 50%;
-			max-width: 40%;
-			display: block;
-			margin: 1em auto;
-		}
-	}
+        @media (min-width: 780px) {
+            width: $col-6;
+        }
 
-	&__details{
-		width: $col-12;
-		padding: 0.9em;
-		@media (min-width:  780px) {
-			width: $col-6;
-		}
-	}
+        a {
+            color: $main;
+        }
+    }
 }
-

@@ -1,0 +1,27 @@
+/// Each individual project is contained in this block
+
+.project-block {
+    margin: 1em 0.5em;
+    border: 1px solid $main;
+
+    @include respond-to("small") {
+        width: 45vw;
+        //This -magic- number is set so that the buttons or text wont be larger than the image.
+        max-width: 500px;
+    }
+    @include respond-to("medium") {
+        width: 30vw;
+    }
+
+    &__buttons {
+        @extend .btn-container;
+    }
+
+    &__details {
+        padding: 1em;
+
+        a {
+            color: $main;
+        }
+    }
+}

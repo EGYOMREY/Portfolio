@@ -21,11 +21,12 @@
   'layout/header',
   'layout/footer',
   'layout/navigation',
-  'layout/project';
+  'layout/projects';
 
 // 5. Components
 @import
-  'components/button';
+  'components/button',
+  'components/project-block';
 
 // 6. Page-specific styles
 //@import

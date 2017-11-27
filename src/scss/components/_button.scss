@@ -1,23 +1,26 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
-.btn-container{
-display: flex;  
+.btn-container {
+    display: flex;
 }
 
-
-.btn{
+.btn {
     border: none;
-    width: 50%;
     padding: 0.6em 2.5em;
     text-align: center;
     text-decoration: none;
     font-size: 1.2rem;
-	background-color: $btn-bg;
-	transition: all ease-in-out 250ms;
-	border: 1px solid darken($btn-hover-color, 15%);
-
-	&:hover{
-		background-color: $btn-hover-color;
-	}
 }
+
+.btn--primary {
+    width: 50%;
+    background-color: $main;
+    border: 1px solid darken($main, 15%);
+    transition: all ease-in-out 250ms;
+
+    &:hover {
+        background-color: darken($main, 5%);
+    }
+}
+

@@ -8,6 +8,7 @@
 html {
   box-sizing: border-box;
   font-size: $font-size-base;
+  font-family: $font-stack;
 
 }
 
@@ -18,17 +19,17 @@ html {
   box-sizing: inherit;
 }
 
-
+//Body basics
 
 body {
   margin: 0;
   padding: 0;
   color: $body-color;
-  font-family: $font-stack;
-  font-weight: $font-normal;
   line-height: 1.6;
   background-color: $body-bg;
 }
+
+
 
 
 /**
@@ -43,43 +44,13 @@ a {
   }
 }
 
-
-// Basic styles for headers
-h1,h2,h3,h4,h5,h6{
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-size: $h1-font-size;
-}
-
-h2 {
-  font-size: $h2-font-size;
-}
-
-h3 {
-  font-size: $h3-font-size;
-}
-
-h4 {
-  font-size: $h4-font-size;
-}
-
-
+// Basic container
 .container{
   width: 90%;
-  display: flex;
-  margin:  0 auto;
-  flex-direction: column;
-}
-
-.container-fluid{
-  width: 100%;
-  display: flex;
   margin:  0 auto;
 }
 
+// Default styles for Unordened lists
 ul{
   list-style: none;
   padding: 0;
@@ -95,3 +66,21 @@ li{
     background-color: lighten($secondary, 5%);
   }
 }
+
+
+//Default images size
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+// Default SVG style
+svg{
+  fill: $main;
+
+  &:hover{
+    fill: darken($main, 5%);
+  }
+}
+
