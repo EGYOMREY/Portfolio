@@ -1,12 +1,24 @@
 # My online Portfolio
 [Direct Link](https://egyomrey.github.io/Portfolio/build/index.html)
 
-## How this project was built:
+## How to use this project
+- To clone this repository with Git type in your console `git clone https://github.com/EGYOMREY/Portfolio.git`
+- You can also download the code by pressing the button **Clone or Download** and then **Download ZIP**
 
+All the source code is in the `src` folder, the minified and compressed version is in the `build` folder
+
+If you'd like to work on this project (and use Gulp), after downloading or cloning it, go to the project's folder location with your console and 
+
+1. Type `npm install` so you can work with the dependencies I used for developing it. (wait for the installation to complete)
+2. Type `gulp` in the console and a new browser window will open pointing to your `localhost:3000` 
+3. You can start working with the files located in the `src` folder. Open it with your text editor
+
+
+### Details about the Project
 
 ### 1. Styling
 
-- Done with Sassy CSS, complied and minified to css with [Gulp](https://gulpjs.com/)
+- Done with Sassy CSS (SCSS)
 - Followed a basic [7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern)
 
 **Final Sass folder structure:**
@@ -39,7 +51,7 @@ sass/
 – main.scss           
  </pre>
 
-### 2. Gulp plugins used:
+### 2. Automation Tool used: Gulp
  <pre>
     gulp = require('gulp'),
     sass = require('gulp-sass'),
