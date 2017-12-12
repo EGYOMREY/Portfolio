@@ -2,8 +2,8 @@
 [Direct Link](https://egyomrey.github.io/Portfolio/build/index.html)
 
 ## How to use this project
-- To clone this repository with Git type in your console `git clone https://github.com/EGYOMREY/Portfolio.git`
-- You can also download the code by pressing the button **Clone or Download** and then **Download ZIP**
+- To **clone** this repository with Git type in your console `git clone https://github.com/EGYOMREY/Portfolio.git`
+- You can also **download** the code by pressing the button **Clone or Download** and then **Download ZIP**
 
 All the source code is in the `src` folder, the minified and compressed version is in the `build` folder
 
@@ -13,7 +13,8 @@ If you'd like to work on this project (and use Gulp), after downloading or cloni
 
 1. Type `npm install` so you can work with the dependencies I used for developing it. (wait for the installation to complete)
 2. Type `gulp` in the console and a new browser window will open pointing to your `localhost:3000` 
-3. You can start working with the files located in the `src` folder. Open it with your text editor
+3. You can start working with the files located in the `src` folder. Open it with your text editor.
+
 Gulp will refresh the browser with any saved change done in `src`, and also will output the minified and compressed version in the `build` folder.
 
 
