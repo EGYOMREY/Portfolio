@@ -2,7 +2,7 @@
 
 .project-block {
     margin: 1em 0.5em;
-    border: 1px solid $main;
+    border: 2px solid $main;
 
     @include respond-to("small") {
         width: 45vw;
