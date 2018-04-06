@@ -70,7 +70,7 @@ gulp.task('scripts', function() {
 
 
 //we deploy all our tasks by typing gulp
-gulp.task('default', ['styles', 'content', 'serve']);
+gulp.task('default', ['styles', 'content', 'images', 'serve']);
 
 
 
