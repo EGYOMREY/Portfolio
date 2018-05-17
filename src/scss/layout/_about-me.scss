@@ -31,4 +31,20 @@
             width: $col-6;
         }
     }
+
+    &__description {
+        text-align: justify;
+
+        width: $col-12;
+        padding: 0.9em;
+
+        @media (min-width: 780px) {
+            width: $col-10;
+            margin: auto;
+        }
+    }
+
+    &__contact {
+        text-align: center;
+    }
 }
